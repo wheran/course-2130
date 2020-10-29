@@ -1,21 +1,9 @@
-import pytest
 from collections import namedtuple
-from ..template import *
-import json
-import inspect
 
+from ..template import *
 
 PATH_TO_CASES = 'cases.json'
 Case = namedtuple('Case', ['input', 'result'])
-
-
-def args_wrapper(name: str, case: list):
-    """
-    Very useful feature to pack your case.
-    Make your case as class with __repr__ method and be happy
-    :return:
-    """
-    return pytest.mark.parametrize(name, case, ids=list(map(repr, case)))
 
 
 def test_t1(case):
