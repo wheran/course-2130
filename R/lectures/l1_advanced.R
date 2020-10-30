@@ -1,8 +1,3 @@
-# Title     : TODO
-# Objective : TODO
-# Created by: Ilya
-# Created on: 10/30/2020
-
 # Title     : Практические задания
 # Objective : Практика
 # Created by: Ilya
