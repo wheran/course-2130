@@ -1,4 +1,5 @@
 from __future__ import annotations
+
 from typing import List, Any
 
 
@@ -113,7 +114,7 @@ class PersistentList:
     def __init__(self, iterable: List[Any], path_to_file: str):
         pass
 
-    def append(self):
+    def append(self, item):
         pass
 
     def __getitem__(self, item):

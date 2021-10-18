@@ -117,7 +117,7 @@ def test_square():
 def test_persistent_list():
     def read_store(file_path):
         with open(file_path) as file:
-            json.load(file)
+            return json.load(file)
 
     store_path = 'store'
 
